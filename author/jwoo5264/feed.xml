@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://iceameri.github.io/author/jwoo5264/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://iceameri.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-01-10T11:38:20+09:00</updated>
+  <updated>2022-01-10T15:15:12+09:00</updated>
   <id>https://iceameri.github.io/author/jwoo5264/feed.xml</id>
 
   
@@ -83,7 +83,10 @@
     &lt;li&gt;&lt;a href=&quot;./python&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;python 이다&lt;/p&gt;</content>
+&lt;p&gt;python 이다&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;abcd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;ja&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
       

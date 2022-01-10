@@ -9,7 +9,7 @@
 
 
 
-    <title>Author Page</title>
+    <title>Search Result</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -48,19 +48,19 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="JUNGWOO LEE's blog" />
     <link rel="shortcut icon" href="https://iceameri.github.io/assets/built/images/favicon.jpg" type="image/png" />
-    <link rel="canonical" href="https://iceameri.github.io/author/jwoo5264/" />
+    <link rel="canonical" href="https://iceameri.github.io/search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Developer About Me" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Author Page" />
+    <meta property="og:title" content="Search Result" />
     <meta property="og:description" content="JUNGWOO LEE's blog" />
-    <meta property="og:url" content="https://iceameri.github.io/author/jwoo5264/" />
+    <meta property="og:url" content="https://iceameri.github.io/search" />
     <meta property="og:image" content="https://iceameri.github.io/assets/built/images/background1.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Author Page" />
+    <meta name="twitter:title" content="Search Result" />
     <meta name="twitter:description" content="JUNGWOO LEE's blog" />
     <meta name="twitter:url" content="https://iceameri.github.io/" />
     <meta name="twitter:image" content="https://iceameri.github.io/assets/built/images/background1.jpg" />
@@ -80,7 +80,7 @@
         "name": "Developer About Me",
         "logo": "https://iceameri.github.io/"
     },
-    "url": "https://iceameri.github.io/author/jwoo5264/",
+    "url": "https://iceameri.github.io/search",
     "image": {
         "@type": "ImageObject",
         "url": "https://iceameri.github.io/assets/built/images/background1.jpg",
@@ -89,7 +89,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://iceameri.github.io/author/jwoo5264/"
+        "@id": "https://iceameri.github.io/search"
     },
     "description": "JUNGWOO LEE's blog"
 }
@@ -104,168 +104,130 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Author Page" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
 
 
 </head>
-<body class="author-template">
+<body class="page-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- < default}} -->
-<!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
+        <!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
 
-<!-- #author  -->
-<!-- Everything inside the #author tags pulls data from the author -->
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="https://iceameri.github.io/">Developer About Me</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-jekyll" role="menuitem"><a href="/tag/jekyll/">Jekyll</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/python/">Python</a></li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/archive.html">All Posts</a>
+    </li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/author_archive.html">Tag별 Posts</a>
+    </li>
+</ul>
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search</a>
+        
+    </div>
+</nav>
 
-    
+    </div>
+</header>
 
-<!-- /author -->
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
 
-<!-- The main content area -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+        <article class="post-full  post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">Search Result</h1>
+            </header>
+
             
 
+            <section class="post-full-content">
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
 
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/python">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/python_logo.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Python</span>
-                            
-                        
-                    
+<ul class="mylist" id="search-results"></ul>
 
-                    <h2 class="post-card-title">python 강좌(2) - python 기본</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python 강좌는 여러 절로 구성되어 있습니다. 
+<script>
+    window.store = {
+    
+    "python": {
+        "title": "python 강좌(2) - python 기본",
+            "author": "jwoo5264",
+            "category": "",
+            "content": "Python 강좌는 여러 절로 구성되어 있습니다.     Python 강좌(1) - Python 기본    Python 강좌(2) - Python 제어문python 이다",
+        "url": "/python"
+    }
+    ,
+    
+    "python-basic": {
+        "title": "python 강좌(1) - python 기본",
+            "author": "jwoo5264",
+            "category": "",
+            "content": "Python 강좌는 여러 절로 구성되어 있습니다.     Python 강좌(1) - Python 기본    Python 강좌(2) - Python 제어문python 이다abcd.ja",
+        "url": "/python-basic"
+    }
+    ,
+    
+    "jekyll-basic": {
+        "title": "jekyll 강좌(1) - jekyll 기본",
+            "author": "jwoo5264",
+            "category": "",
+            "content": "jekyll 이다",
+        "url": "/jekyll-basic"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
+            </section>
 
-    Python 강좌(1) - Python 기본
-    Python 강좌(2) - Python 제어문
-
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/python-basic">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/python_logo.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Python</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">python 강좌(1) - python 기본</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python 강좌는 여러 절로 구성되어 있습니다. 
-
-    Python 강좌(1) - Python 기본
-    Python 강좌(2) - Python 제어문
-
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card author-template">
-        
-            <a class="post-card-image-link" href="/jekyll-basic">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/jekyll_logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/jekyll-basic">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Jekyll</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">jekyll 강좌(1) - jekyll 기본</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>jekyll 이다
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-
-        </div>
+        </article>
 
     </div>
 </main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
 
 
         <!-- Previous/next page links - displayed on every page -->
@@ -342,7 +304,7 @@
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
     <!-- <script>
-        var maxPages = parseInt('1');
+        var maxPages = parseInt('');
     </script>
     <script src="/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
@@ -365,6 +327,14 @@
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
