@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://iceameri.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://iceameri.github.io/" rel="alternate" type="text/html" /><updated>2022-01-14T13:07:43+09:00</updated><id>https://iceameri.github.io/feed.xml</id><title type="html">JW’s Tech Blog</title><entry><title type="html">Python 연습문제</title><link href="https://iceameri.github.io/python" rel="alternate" type="text/html" title="Python 연습문제" /><published>2022-01-14T10:00:00+09:00</published><updated>2022-01-14T10:00:00+09:00</updated><id>https://iceameri.github.io/python</id><content type="html" xml:base="https://iceameri.github.io/python">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://iceameri.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://iceameri.github.io/" rel="alternate" type="text/html" /><updated>2022-01-14T13:17:15+09:00</updated><id>https://iceameri.github.io/feed.xml</id><title type="html">JW’s Tech Blog</title><entry><title type="html">Python 연습문제</title><link href="https://iceameri.github.io/python" rel="alternate" type="text/html" title="Python 연습문제" /><published>2022-01-14T10:00:00+09:00</published><updated>2022-01-14T10:00:00+09:00</updated><id>https://iceameri.github.io/python</id><content type="html" xml:base="https://iceameri.github.io/python">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 공부는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python Basic&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python&quot;&gt;Python 연습문제&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;python 연습문제 작성예정&lt;/p&gt;</content><author><name>jwoo5264</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python Basic Python 연습문제</summary></entry><entry><title type="html">jekyll GITBLOG MAINTANANCE</title><link href="https://iceameri.github.io/jekyll-basic" rel="alternate" type="text/html" title="jekyll GITBLOG MAINTANANCE" /><published>2022-01-14T09:00:00+09:00</published><updated>2022-01-14T09:00:00+09:00</updated><id>https://iceameri.github.io/jekyll-basic</id><content type="html" xml:base="https://iceameri.github.io/jekyll-basic">&lt;h1 id=&quot;gitblog-maintanance&quot;&gt;GITBLOG MAINTANANCE&lt;/h1&gt;
+&lt;p&gt;python 연습문제 작성예정&lt;/p&gt;</content><author><name>jwoo5264</name></author><category term="python" /><summary type="html">Python 공부는 여러 절로 구성되어 있습니다. Python Basic Python 연습문제</summary></entry><entry><title type="html">jekyll Gitblog Maintanance</title><link href="https://iceameri.github.io/jekyll-basic" rel="alternate" type="text/html" title="jekyll Gitblog Maintanance" /><published>2022-01-14T09:00:00+09:00</published><updated>2022-01-14T09:00:00+09:00</updated><id>https://iceameri.github.io/jekyll-basic</id><content type="html" xml:base="https://iceameri.github.io/jekyll-basic">&lt;h1 id=&quot;gitblog-maintanance&quot;&gt;GITBLOG MAINTANANCE&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://moon9342.github.io/jekyll-start&quot;&gt;https://moon9342.github.io/jekyll-start&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://moon9342.github.io/jekyll-start&quot;&gt;출처&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -133,7 +133,7 @@ base16, base16.dark, base16.light, base16.monokai, base16.monokai.dark, base16.m
 
 &lt;p&gt;Gemfile&lt;/p&gt;
 
-&lt;p&gt;search.html&lt;/p&gt;</content><author><name>jwoo5264</name></author><category term="jekyll" /><summary type="html">GITBLOG MAINTANANCE</summary></entry><entry><title type="html">Python Basic</title><link href="https://iceameri.github.io/python-basic" rel="alternate" type="text/html" title="Python Basic" /><published>2022-01-14T09:00:00+09:00</published><updated>2022-01-14T09:00:00+09:00</updated><id>https://iceameri.github.io/python-basic</id><content type="html" xml:base="https://iceameri.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;search.html&lt;/p&gt;</content><author><name>jwoo5264</name></author><category term="jekyll" /><summary type="html">GITBLOG MAINTANANCE</summary></entry><entry><title type="html">Python Basic</title><link href="https://iceameri.github.io/python-basic" rel="alternate" type="text/html" title="Python Basic" /><published>2022-01-14T09:00:00+09:00</published><updated>2022-01-14T09:00:00+09:00</updated><id>https://iceameri.github.io/python-basic</id><content type="html" xml:base="https://iceameri.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 공부는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python Basic&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python&quot;&gt;Python 연습문제&lt;/a&gt;&lt;/li&gt;
@@ -2721,4 +2721,4 @@ threading.Thread를 사용하여 만든 스레드 객체가
 '''&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;hr /&gt;</content><author><name>jwoo5264</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python Basic Python 연습문제</summary></entry></feed>
+&lt;hr /&gt;</content><author><name>jwoo5264</name></author><category term="python" /><summary type="html">Python 공부는 여러 절로 구성되어 있습니다. Python Basic Python 연습문제</summary></entry></feed>
