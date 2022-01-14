@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://iceameri.github.io/tag/jekyll/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://iceameri.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-01-11T12:11:46+09:00</updated>
+  <updated>2022-01-14T13:07:43+09:00</updated>
   <id>https://iceameri.github.io/tag/jekyll/feed.xml</id>
 
   
@@ -30,12 +30,141 @@
 
   
     <entry>
-      <title type="html">jekyll 강좌(1) - jekyll 기본</title>
-      <link href="https://iceameri.github.io/jekyll-basic" rel="alternate" type="text/html" title="jekyll 강좌(1) - jekyll 기본" />
-      <published>2020-06-08T01:40:00+09:00</published>
-      <updated>2020-06-08T01:40:00+09:00</updated>
+      <title type="html">jekyll GITBLOG MAINTANANCE</title>
+      <link href="https://iceameri.github.io/jekyll-basic" rel="alternate" type="text/html" title="jekyll GITBLOG MAINTANANCE" />
+      <published>2022-01-14T09:00:00+09:00</published>
+      <updated>2022-01-14T09:00:00+09:00</updated>
       <id>https://iceameri.github.io/jekyll-basic</id>
-      <content type="html" xml:base="https://iceameri.github.io/jekyll-basic">&lt;p&gt;jekyll 이다&lt;/p&gt;</content>
+      <content type="html" xml:base="https://iceameri.github.io/jekyll-basic">&lt;h1 id=&quot;gitblog-maintanance&quot;&gt;GITBLOG MAINTANANCE&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://moon9342.github.io/jekyll-start&quot;&gt;https://moon9342.github.io/jekyll-start&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;version&quot;&gt;version&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;ruby 2.6.9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/download/release/v11.15.0/&quot;&gt;node 11.15.0&lt;/a&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[node-v11.15.0-x64.msi](https://nodejs.org/download/release/v11.15.0/node-v11.15.0-x64.msi)다운&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/jasper2/&quot;&gt;jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/iceameri/iceameri.github.io/blob/master/assets/js/lunr.js&quot;&gt;lunr.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/search#?modal_active=none&quot;&gt;Google Search Console&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;settings&quot;&gt;SETTINGS&lt;/h1&gt;
+
+&lt;h2 id=&quot;환경변수&quot;&gt;환경변수&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;JEKYLL_ENV / production&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/images/jekyll/jekyll_0.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;명령어&quot;&gt;명령어&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;bundle install&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;bundle exec jekyll serve&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;npm install&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;css minify (node.js)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;npm install –global gulp-cli
+npm install –save-dev gulp
+gulp-v #(버전확인)
+gulp css #(css 수정후 실행)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;gem install rouge&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;rouge 수정&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;***rougify help style
+rougify style monokai.sublime &amp;gt; assets/css/syntax.css&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                 (available themes)***
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;바꿀시 syntax.css삭제 후 명령&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;available themes:
+base16, base16.dark, base16.light, base16.monokai, base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;gemfile-수정&quot;&gt;Gemfile 수정&lt;/h2&gt;
+
+&lt;p&gt;gem ‘wdm’, ‘≥ 0.1.0’ 추가&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;gem ‘wdm’, ‘≥ 0.1.0’&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/images/jekyll/jekyll_1.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;수정해야할-부분&quot;&gt;수정해야할 부분&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;subscribe 관련한 모든 부분 Search로 수정&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+            &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;subscribe-button&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#subscribe&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;Search&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;수정한파일&lt;/p&gt;
+
+&lt;p&gt;authors.yml&lt;/p&gt;
+
+&lt;p&gt;tags.yml&lt;/p&gt;
+
+&lt;p&gt;navigation.html&lt;/p&gt;
+
+&lt;p&gt;default.html&lt;/p&gt;
+
+&lt;p&gt;python-table-of-contents&lt;/p&gt;
+
+&lt;p&gt;_posts/*&lt;/p&gt;
+
+&lt;p&gt;index.md&lt;/p&gt;
+
+&lt;p&gt;assets/built/image/*&lt;/p&gt;
+
+&lt;p&gt;assets/css&lt;/p&gt;
+
+&lt;p&gt;_config.yml&lt;/p&gt;
+
+&lt;p&gt;Gemfile&lt;/p&gt;
+
+&lt;p&gt;search.html&lt;/p&gt;</content>
 
       
       
@@ -56,7 +185,7 @@
       
 
       
-        <summary type="html">jekyll 이다</summary>
+        <summary type="html">GITBLOG MAINTANANCE</summary>
       
 
       
