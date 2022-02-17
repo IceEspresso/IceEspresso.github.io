@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-17T16:56:41+09:00</updated><id>/feed.xml</id><title type="html">JW’s Tech Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>iceameri</name></author><entry><title type="html">디스코드 뮤직봇 만들기 python.py</title><link href="/toy_project/2022/01/28/discordMusicBot_python.html" rel="alternate" type="text/html" title="디스코드 뮤직봇 만들기 python.py" /><published>2022-01-28T00:00:00+09:00</published><updated>2022-01-28T00:00:00+09:00</updated><id>/toy_project/2022/01/28/discordMusicBot_python</id><content type="html" xml:base="/toy_project/2022/01/28/discordMusicBot_python.html">&lt;h1 id=&quot;디스코드-뮤직봇-만들기&quot;&gt;디스코드 뮤직봇 만들기&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-17T17:13:19+09:00</updated><id>/feed.xml</id><title type="html">JW’s Tech Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>iceameri</name></author><entry><title type="html">디스코드 뮤직봇 만들기 python.py</title><link href="/toy_project/2022/01/28/discordMusicBot_python.html" rel="alternate" type="text/html" title="디스코드 뮤직봇 만들기 python.py" /><published>2022-01-28T00:00:00+09:00</published><updated>2022-01-28T00:00:00+09:00</updated><id>/toy_project/2022/01/28/discordMusicBot_python</id><content type="html" xml:base="/toy_project/2022/01/28/discordMusicBot_python.html">&lt;h1 id=&quot;디스코드-뮤직봇-만들기&quot;&gt;디스코드 뮤직봇 만들기&lt;/h1&gt;
 
 &lt;p&gt;ICON RESOURCE : &lt;a href=&quot;https://www.pinterest.co.kr/pin/214695107226122404/&quot;&gt;https://www.pinterest.co.kr/pin/214695107226122404/&lt;/a&gt;&lt;/p&gt;
 
@@ -45,7 +45,7 @@
   &lt;p&gt;pip install pynacl&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;#명령어 !join !out&lt;/p&gt;
 
@@ -96,11 +96,11 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;https://www.ffmpeg.org/&lt;/a&gt; -download - Windows builds from gyan.dev&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%201.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%201.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;ffmpeg full 다운&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%202.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%202.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;압축해제후 경로복사하여 path에 추가&lt;/p&gt;
 
@@ -110,7 +110,7 @@
 
 &lt;p&gt;path가 정확히 잡혔는지 확인&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%203.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%203.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -148,7 +148,7 @@
         &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Song is already played&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%204.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%204.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -156,7 +156,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://chromedriver.chromium.org/downloads&quot;&gt;https://chromedriver.chromium.org/downloads&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%205.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%205.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;크롬 버전에 맞는 ChromeDriver 다운로드 맞는 버전이 없는 경우 해당 버전에 근접하는 버전다운&lt;/p&gt;
 
@@ -166,7 +166,7 @@
   &lt;p&gt;pip install lxml&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%206.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%206.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;bot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;재생&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
@@ -207,7 +207,7 @@
         &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;이미 노래가 재생 중이라 노래를 재생할 수 없어요!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%207.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%207.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -251,7 +251,7 @@
         &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Puree is resting&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%208.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%208.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -267,7 +267,7 @@
     &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%209.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%209.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;bot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;재생&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
@@ -314,7 +314,7 @@
         &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;이미 노래가 재생 중이라 노래를 재생할 수 없어요!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2010.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2010.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;bot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;멜론차트&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
@@ -361,7 +361,7 @@
         &lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;이미 노래가 재생 중이라 노래를 재생할 수 없어요!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2011.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2011.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -917,13 +917,13 @@
 
 &lt;p&gt;&lt;a href=&quot;https://dashboard.heroku.com/apps&quot;&gt;Heroku&lt;/a&gt; 가입&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2012.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2012.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2013.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2013.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Settings - Buildpacks 설정&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2014.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2014.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git&lt;/p&gt;
@@ -945,7 +945,7 @@
 
 &lt;p&gt;연동후 해당 프로젝트연결&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2015.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2015.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;서버이용을-위해-필수파일-생성&quot;&gt;서버이용을 위해 필수파일 생성&lt;/h2&gt;
 
@@ -957,7 +957,7 @@
 &lt;span class=&quot;nx&quot;&gt;worker&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;py&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2016.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2016.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;requirements.txt&lt;/strong&gt;&lt;/p&gt;
 
@@ -976,14 +976,14 @@
 &lt;span class=&quot;nx&quot;&gt;Options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2017.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2017.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Aptfile (확장자명없음)&lt;/p&gt;
 
 &lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;git&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2018.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2018.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;runtime.txt&lt;/strong&gt;&lt;/p&gt;
 
@@ -998,7 +998,7 @@
 
 &lt;p&gt;token의 경우 중요한 정보이기 때문에 config파일에 따로 관리해야하지만 Heroku에서 기본적으로 제공해주는 Config Vars를 이용 (Settings - Config Vars)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2019.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2019.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Key : CHROME_EXECUTABLE_PATH / Values : /app/.chromedriver/bin/chromedriver&lt;/p&gt;
@@ -1040,7 +1040,7 @@ async def on_ready(): 에서 opus 를 더 이상 등록하지 않아도 된다&l
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/xrisk/heroku-opus&quot;&gt;여기&lt;/a&gt; 에서 확인&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2020.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2020.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -1048,21 +1048,21 @@ async def on_ready(): 에서 opus 를 더 이상 등록하지 않아도 된다&l
 
 &lt;p&gt;정상적으로 파일이 올라간 경우 Overview에서 확인가능하다&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2021.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2021.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2022.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2022.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;서버를 켜면 봇이 켜지는 것을 확인 할 수 있다&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2023.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2023.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2024.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2024.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2025.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2025.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;정상작동 확인 (글 작성은 다음날 진행함)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2026.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2026.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;24시간-구동&quot;&gt;24시간 구동&lt;/h3&gt;
 
@@ -1070,13 +1070,13 @@ async def on_ready(): 에서 opus 를 더 이상 등록하지 않아도 된다&l
 
 &lt;p&gt;&lt;a href=&quot;https://elements.heroku.com/addons&quot;&gt;https://elements.heroku.com/addons&lt;/a&gt; 에서 스케쥴러 사용(계정정보에서 카드등록하면 사용가능)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2027.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2027.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2028.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2028.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2029.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2029.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/discordmusicbot_python/Untitled%2030.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/discordmusicbot_python/Untitled%2030.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Save Job을하게 되면 자동으로 서버가 돌아감&lt;/p&gt;
 
@@ -2474,7 +2474,7 @@ None	거짓
 &lt;/span&gt;    &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;second&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;second&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;# ② 메서드의 수행문
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../assets/images/python/python_Basic_0.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/python/python_Basic_0.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;생성자-constructor&quot;&gt;&lt;strong&gt;생성자 Constructor&lt;/strong&gt;&lt;/h3&gt;
 
