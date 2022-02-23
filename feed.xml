@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-17T17:13:19+09:00</updated><id>/feed.xml</id><title type="html">JW’s Tech Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>iceameri</name></author><entry><title type="html">디스코드 뮤직봇 만들기 python.py</title><link href="/toy_project/2022/01/28/discordMusicBot_python.html" rel="alternate" type="text/html" title="디스코드 뮤직봇 만들기 python.py" /><published>2022-01-28T00:00:00+09:00</published><updated>2022-01-28T00:00:00+09:00</updated><id>/toy_project/2022/01/28/discordMusicBot_python</id><content type="html" xml:base="/toy_project/2022/01/28/discordMusicBot_python.html">&lt;h1 id=&quot;디스코드-뮤직봇-만들기&quot;&gt;디스코드 뮤직봇 만들기&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-02-24T02:24:08+09:00</updated><id>/feed.xml</id><title type="html">JW’s Tech Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>iceameri</name></author><entry><title type="html">디스코드 뮤직봇 만들기 python.py</title><link href="/toy_project/2022/01/28/discordMusicBot_python.html" rel="alternate" type="text/html" title="디스코드 뮤직봇 만들기 python.py" /><published>2022-01-28T00:00:00+09:00</published><updated>2022-01-28T00:00:00+09:00</updated><id>/toy_project/2022/01/28/discordMusicBot_python</id><content type="html" xml:base="/toy_project/2022/01/28/discordMusicBot_python.html">&lt;h1 id=&quot;디스코드-뮤직봇-만들기&quot;&gt;디스코드 뮤직봇 만들기&lt;/h1&gt;
 
 &lt;p&gt;ICON RESOURCE : &lt;a href=&quot;https://www.pinterest.co.kr/pin/214695107226122404/&quot;&gt;https://www.pinterest.co.kr/pin/214695107226122404/&lt;/a&gt;&lt;/p&gt;
 
@@ -1090,7 +1090,250 @@ async def on_ready(): 에서 opus 를 더 이상 등록하지 않아도 된다&l
 
 &lt;p&gt;&lt;a href=&quot;https://devcenter.heroku.com/articles/python-support&quot;&gt;https://devcenter.heroku.com/articles/python-support&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://todaycode.tistory.com/22&quot;&gt;https://todaycode.tistory.com/22&lt;/a&gt;&lt;/p&gt;</content><author><name>iceameri</name></author><category term="toy_project" /><category term="python" /><summary type="html">디스코드 뮤직봇 만들기</summary></entry><entry><title type="html">Python Basic</title><link href="/python/2022/01/14/python.html" rel="alternate" type="text/html" title="Python Basic" /><published>2022-01-14T00:00:00+09:00</published><updated>2022-01-14T00:00:00+09:00</updated><id>/python/2022/01/14/python</id><content type="html" xml:base="/python/2022/01/14/python.html">&lt;h1 id=&quot;python-basic&quot;&gt;Python Basic&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://todaycode.tistory.com/22&quot;&gt;https://todaycode.tistory.com/22&lt;/a&gt;&lt;/p&gt;</content><author><name>iceameri</name></author><category term="toy_project" /><category term="python" /><summary type="html">디스코드 뮤직봇 만들기</summary></entry><entry><title type="html">lombok 설치</title><link href="/spring,/env/2022/01/14/lombok-env.html" rel="alternate" type="text/html" title="lombok 설치" /><published>2022-01-14T00:00:00+09:00</published><updated>2022-01-14T00:00:00+09:00</updated><id>/spring,/env/2022/01/14/lombok-env</id><content type="html" xml:base="/spring,/env/2022/01/14/lombok-env.html">&lt;h1 id=&quot;lombok-설치하는-방법&quot;&gt;LOMBOK 설치하는 방법&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;jar 파일 다운로드&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://projectlombok.org/download&quot;&gt;https://projectlombok.org/download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/env/lombok/a1.png&quot; alt=&quot;a1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Window + r&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;cmd 명령프롬프터 켜기&lt;/p&gt;
+
+&lt;p&gt;cd [jar 파일이 있는 파일디렉토리]&lt;/p&gt;
+
+&lt;p&gt;java -jar lombok.jar 입력&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/env/lombok/a2.png&quot; alt=&quot;a2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;완료된 화면&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/env/lombok/a3.png&quot; alt=&quot;a3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;dependency 등록&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;dependency&gt;
+
+&lt;groupId&gt;org.projectlombok&lt;/groupId&gt;
+
+&lt;artifactId&gt;lombok&lt;/artifactId&gt;
+
+&lt;version&gt;1.18.16&lt;/version&gt; &lt;!--버전은 그때 맞춰서 20201018기준--&gt;
+
+&lt;/dependency&gt;
+
+&lt;h3 id=&quot;자주-사용하는-lombok-annotation&quot;&gt;자주 사용하는 lombok annotation&lt;/h3&gt;
+
+&lt;p&gt;@NoArgsConstructor  //파라미터가 없는 생성자&lt;/p&gt;
+
+&lt;p&gt;@AllArgsConstructor // 파라미터가 있는 생성자&lt;/p&gt;
+
+&lt;p&gt;@Getter @Setter  // getter setter&lt;/p&gt;
+
+&lt;p&gt;@ToString  // tostring&lt;/p&gt;
+
+&lt;p&gt;@RequiredArgsConstructor // 파라미터 일부가 잇는 생성자&lt;/p&gt;
+
+&lt;p&gt;// final 이나 @NonNull인 필드 값만 파라미터로 받는다&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/env/lombok/d1.png&quot; alt=&quot;d1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;@exclude&lt;/p&gt;
+
+&lt;p&gt;특정 필드를 toString결과에서 제외시킬 수 있습니다&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/env/lombok/d2.png&quot; alt=&quot;d2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;@Data&lt;/p&gt;
+
+&lt;p&gt;// 위에서 설명한 @Getter @Setter @RequiredArgsConstructor @ToString @EqualAndHashCOde 를 한꺼번에 설정해주는 매우 유용한 어노테이션&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/env/lombok//d3.png&quot; alt=&quot;d3.png&quot; /&gt;&lt;/p&gt;</content><author><name>iceameri</name></author><category term="spring," /><category term="env" /><category term="spring" /><category term="env" /><summary type="html">LOMBOK 설치하는 방법</summary></entry><entry><title type="html">java 환경설정 win10.ver</title><link href="/java,/env/2022/01/14/java-env.html" rel="alternate" type="text/html" title="java 환경설정 win10.ver" /><published>2022-01-14T00:00:00+09:00</published><updated>2022-01-14T00:00:00+09:00</updated><id>/java,/env/2022/01/14/java-env</id><content type="html" xml:base="/java,/env/2022/01/14/java-env.html">&lt;h1 id=&quot;자바-환경설정-verwin10&quot;&gt;자바 환경설정 ver.WIN10&lt;/h1&gt;
+
+&lt;p&gt;1. &lt;a href=&quot;https://www.oracle.com/java/technologies/javase-downloads.html&quot;&gt;java 8 버전 다운&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;java 8 버전 다운&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/java/j1.png&quot; alt=&quot;j1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;8u271 버전 다운&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/java/j2.png&quot; alt=&quot;j2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;폴더 - 내 PC or 내컴퓨터 마우스우클릭&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/java/j3.png&quot; alt=&quot;j3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;고급 시스템 설정 클릭 - 환경변수&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.notion.so&quot;&gt;https://www.notion.so&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;시스템 변수에서 새로만들기&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/java/j5.png&quot; alt=&quot;j5.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;변수 값 : %classpath%;. // jdk가 설치된곳&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/java/j6.png&quot; alt=&quot;j6.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;변수 값 : %JAVA_HOME%\bin&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/java/j7.png&quot; alt=&quot;j7.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;widow+r - cmd 입력 - java -version 설치되었는지 확인&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/java/j8.png&quot; alt=&quot;j8.png&quot; /&gt;&lt;/p&gt;</content><author><name>iceameri</name></author><category term="java," /><category term="env" /><category term="java" /><category term="env" /><summary type="html">자바 환경설정 ver.WIN10</summary></entry><entry><title type="html">jekyll Basic</title><link href="/jekyll/2022/01/14/jekyll-basic.html" rel="alternate" type="text/html" title="jekyll Basic" /><published>2022-01-14T00:00:00+09:00</published><updated>2022-01-14T00:00:00+09:00</updated><id>/jekyll/2022/01/14/jekyll-basic</id><content type="html" xml:base="/jekyll/2022/01/14/jekyll-basic.html">&lt;h1 id=&quot;gitblog-maintanance&quot;&gt;GITBLOG MAINTANANCE&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://moon9342.github.io/jekyll-start&quot;&gt;출처&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;version&quot;&gt;version&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;ruby 2.6.9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/download/release/v11.15.0/&quot;&gt;node 11.15.0&lt;/a&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[node-v11.15.0-x64.msi](https://nodejs.org/download/release/v11.15.0/node-v11.15.0-x64.msi)다운&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/jasper2/&quot;&gt;jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/iceameri/iceameri.github.io/blob/master/assets/js/lunr.js&quot;&gt;lunr.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/search#?modal_active=none&quot;&gt;Google Search Console&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;settings&quot;&gt;SETTINGS&lt;/h1&gt;
+
+&lt;h2 id=&quot;환경변수&quot;&gt;환경변수&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;JEKYLL_ENV / production&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/images/jekyll/jekyll_0.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;명령어&quot;&gt;명령어&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;bundle install&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;bundle exec jekyll serve&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;npm install&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;css minify (node.js)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;npm install –global gulp-cli
+npm install –save-dev gulp
+gulp-v #(버전확인)
+gulp css #(css 수정후 실행)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;gem install rouge&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;rouge 수정&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;***rougify help style
+rougify style monokai.sublime &amp;gt; assets/css/syntax.css&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                 (available themes)***
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;바꿀시 syntax.css삭제 후 명령&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;available themes:
+base16, base16.dark, base16.light, base16.monokai, base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;gemfile-수정&quot;&gt;Gemfile 수정&lt;/h2&gt;
+
+&lt;p&gt;gem ‘wdm’, ‘≥ 0.1.0’ 추가&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;gem ‘wdm’, ‘≥ 0.1.0’&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/images/jekyll/jekyll_1.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;수정해야할-부분&quot;&gt;수정해야할 부분&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;subscribe 관련한 모든 부분 Search로 수정&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;수정한파일&lt;/p&gt;
+
+&lt;p&gt;authors.yml&lt;/p&gt;
+
+&lt;p&gt;tags.yml&lt;/p&gt;
+
+&lt;p&gt;navigation.html&lt;/p&gt;
+
+&lt;p&gt;default.html&lt;/p&gt;
+
+&lt;p&gt;python-table-of-contents&lt;/p&gt;
+
+&lt;p&gt;_posts/*&lt;/p&gt;
+
+&lt;p&gt;index.md&lt;/p&gt;
+
+&lt;p&gt;assets/built/image/*&lt;/p&gt;
+
+&lt;p&gt;assets/css&lt;/p&gt;
+
+&lt;p&gt;_config.yml&lt;/p&gt;
+
+&lt;p&gt;Gemfile&lt;/p&gt;
+
+&lt;p&gt;search.html&lt;/p&gt;</content><author><name>iceameri</name></author><category term="jekyll" /><category term="jekyll" /><summary type="html">GITBLOG MAINTANANCE</summary></entry><entry><title type="html">Python Basic</title><link href="/python/2022/01/14/python.html" rel="alternate" type="text/html" title="Python Basic" /><published>2022-01-14T00:00:00+09:00</published><updated>2022-01-14T00:00:00+09:00</updated><id>/python/2022/01/14/python</id><content type="html" xml:base="/python/2022/01/14/python.html">&lt;h1 id=&quot;python-basic&quot;&gt;Python Basic&lt;/h1&gt;
 
 &lt;hr /&gt;
 
@@ -3672,134 +3915,7 @@ threading.Thread를 사용하여 만든 스레드 객체가
 '''&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;hr /&gt;</content><author><name>iceameri</name></author><category term="python" /><category term="python" /><summary type="html">Python Basic</summary></entry><entry><title type="html">jekyll Basic</title><link href="/jekyll/2022/01/14/jekyll-basic.html" rel="alternate" type="text/html" title="jekyll Basic" /><published>2022-01-14T00:00:00+09:00</published><updated>2022-01-14T00:00:00+09:00</updated><id>/jekyll/2022/01/14/jekyll-basic</id><content type="html" xml:base="/jekyll/2022/01/14/jekyll-basic.html">&lt;h1 id=&quot;gitblog-maintanance&quot;&gt;GITBLOG MAINTANANCE&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://moon9342.github.io/jekyll-start&quot;&gt;출처&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;version&quot;&gt;version&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;ruby 2.6.9&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://nodejs.org/download/release/v11.15.0/&quot;&gt;node 11.15.0&lt;/a&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[node-v11.15.0-x64.msi](https://nodejs.org/download/release/v11.15.0/node-v11.15.0-x64.msi)다운&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/jasper2/&quot;&gt;jekyll&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/iceameri/iceameri.github.io/blob/master/assets/js/lunr.js&quot;&gt;lunr.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developers.google.com/search#?modal_active=none&quot;&gt;Google Search Console&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;settings&quot;&gt;SETTINGS&lt;/h1&gt;
-
-&lt;h2 id=&quot;환경변수&quot;&gt;환경변수&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;JEKYLL_ENV / production&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/built/images/jekyll/jekyll_0.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;명령어&quot;&gt;명령어&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;bundle install&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;bundle exec jekyll serve&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;npm install&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;css minify (node.js)&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;npm install –global gulp-cli
-npm install –save-dev gulp
-gulp-v #(버전확인)
-gulp css #(css 수정후 실행)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;&lt;em&gt;gem install rouge&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;rouge 수정&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;***rougify help style
-rougify style monokai.sublime &amp;gt; assets/css/syntax.css&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                 (available themes)***
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;바꿀시 syntax.css삭제 후 명령&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;available themes:
-base16, base16.dark, base16.light, base16.monokai, base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;gemfile-수정&quot;&gt;Gemfile 수정&lt;/h2&gt;
-
-&lt;p&gt;gem ‘wdm’, ‘≥ 0.1.0’ 추가&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;gem ‘wdm’, ‘≥ 0.1.0’&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/built/images/jekyll/jekyll_1.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;수정해야할-부분&quot;&gt;수정해야할 부분&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;subscribe 관련한 모든 부분 Search로 수정&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-jsx highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;수정한파일&lt;/p&gt;
-
-&lt;p&gt;authors.yml&lt;/p&gt;
-
-&lt;p&gt;tags.yml&lt;/p&gt;
-
-&lt;p&gt;navigation.html&lt;/p&gt;
-
-&lt;p&gt;default.html&lt;/p&gt;
-
-&lt;p&gt;python-table-of-contents&lt;/p&gt;
-
-&lt;p&gt;_posts/*&lt;/p&gt;
-
-&lt;p&gt;index.md&lt;/p&gt;
-
-&lt;p&gt;assets/built/image/*&lt;/p&gt;
-
-&lt;p&gt;assets/css&lt;/p&gt;
-
-&lt;p&gt;_config.yml&lt;/p&gt;
-
-&lt;p&gt;Gemfile&lt;/p&gt;
-
-&lt;p&gt;search.html&lt;/p&gt;</content><author><name>iceameri</name></author><category term="jekyll" /><category term="jekyll" /><summary type="html">GITBLOG MAINTANANCE</summary></entry><entry><title type="html">Developer in Diary</title><link href="/markdown/2021/12/28/diary.html" rel="alternate" type="text/html" title="Developer in Diary" /><published>2021-12-28T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>/markdown/2021/12/28/diary</id><content type="html" xml:base="/markdown/2021/12/28/diary.html">&lt;h1 id=&quot;한-곳에-매몰되어있지-말자-202112&quot;&gt;한 곳에 매몰되어있지 말자 2021.12&lt;/h1&gt;
+&lt;hr /&gt;</content><author><name>iceameri</name></author><category term="python" /><category term="python" /><summary type="html">Python Basic</summary></entry><entry><title type="html">Developer in Diary</title><link href="/markdown/2021/12/28/diary.html" rel="alternate" type="text/html" title="Developer in Diary" /><published>2021-12-28T00:00:00+09:00</published><updated>2021-12-28T00:00:00+09:00</updated><id>/markdown/2021/12/28/diary</id><content type="html" xml:base="/markdown/2021/12/28/diary.html">&lt;h1 id=&quot;한-곳에-매몰되어있지-말자-202112&quot;&gt;한 곳에 매몰되어있지 말자 2021.12&lt;/h1&gt;
 
 &lt;p&gt;ACS에서 MCS로 넘어왔다
 교육차원에서 선투입되어 들어감
